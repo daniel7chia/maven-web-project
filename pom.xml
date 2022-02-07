@@ -56,9 +56,9 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<url>http://localhost:8080/lesson14/UserServlet/list</url>
+					<url>http://localhost:8080</url>
 					<server>localhost</server>
-					<update>true</update>
+					<path>/lesson14/UserServlet/list</path>
 				</configuration>
 			</plugin>
     </plugins>
