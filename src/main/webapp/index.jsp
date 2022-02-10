@@ -10,7 +10,7 @@
 
 <h1>Hello JSP and Servlet!</h1>
 <form action="HelloServlet" method="post">
-Enter your name: <input type="text" name="yourName" size="20">
+Enter your name: <input type="text" id="user_name" name="yourName" size="20">
 <input type="submit" value="Call Servlet" />
 </form>
 
