@@ -10,8 +10,8 @@
 
 <h1>Hello JSP and Servlet!</h1>
 <form action="HelloServlet" method="post">
-Enter your name: <input type="text" id="user_name" name="yourName" size="20">
-<input type="submit" value="Call Servlet" />
+Enter your name: <input type="text" id="name_box" name="yourName" size="20">
+<input type="submit" id="call_btn" value="Call Servlet" />
 </form>
 
  <button onclick="window.location.href='http://localhost:8080/lesson14/register.jsp';"> Click to go to user registration </button>
